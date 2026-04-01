@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button, Icon, StoreStatus } from '../ui';
 import { storeInfo, navLinks, contact } from '../../data/storeData';
+import logo from '../../assets/images/LYLOGO.svg';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -63,7 +64,7 @@ export default function Header() {
             aria-label={`${storeInfo.name} - Home`}
           >
             <img
-              src="/src/assets/images/LYLOGO.svg"
+              src={logo}
               alt={storeInfo.name}
               className="h-12 md:h-16 w-auto"
               loading="lazy"

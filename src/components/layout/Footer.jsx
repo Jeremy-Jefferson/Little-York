@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Icon } from '../ui';
 import { storeInfo, hours, contact, social, navLinks } from '../../data/storeData';
+import logo from '../../assets/images/LYLOGO.svg';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -13,7 +14,7 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <img
-              src="/src/assets/images/LYLOGO.svg"
+              src={logo}
               alt={storeInfo.name}
               className="h-32 w-auto mb-4"
               loading="lazy"

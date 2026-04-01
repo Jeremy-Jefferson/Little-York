@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { Button, Icon } from '../ui';
 import { storeInfo, contact, trustSignals } from '../../data/storeData';
+import logo from '../../assets/images/LYLOGO.svg';
 
 export default function Hero() {
   return (
@@ -205,7 +206,7 @@ export default function Hero() {
                     style={{ transform: 'scale(1.3)' }}
                   />
                   <img
-                    src="/src/assets/images/LYLOGO.svg"
+                    src={logo}
                     alt={storeInfo.name}
                     className="relative h-[28rem] w-auto drop-shadow-[0_0_25px_rgba(40,217,93,0.25)]"
                   />

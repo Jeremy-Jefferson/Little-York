@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Section, Card, Button, Icon, Skeleton } from '../components/ui';
 import { categories } from '../data/storeData';
+import logo from '../assets/images/LYLOGO.svg';
 
 export default function ProductDetail() {
   const { id } = useParams();
@@ -55,9 +56,9 @@ export default function ProductDetail() {
 
   // Mock product images
   const productImages = [
-    { id: 1, url: '/src/assets/images/LYLOGO.svg', alt: `${product.name} - Image 1` },
-    { id: 2, url: '/src/assets/images/LYLOGO.svg', alt: `${product.name} - Image 2` },
-    { id: 3, url: '/src/assets/images/LYLOGO.svg', alt: `${product.name} - Image 3` },
+    { id: 1, url: logo, alt: `${product.name} - Image 1` },
+    { id: 2, url: logo, alt: `${product.name} - Image 2` },
+    { id: 3, url: logo, alt: `${product.name} - Image 3` },
   ];
 
   // Mock product details
