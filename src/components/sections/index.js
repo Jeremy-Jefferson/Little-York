@@ -1,0 +1,9 @@
+export { default as Hero } from './Hero';
+export { default as WhyChooseUs } from './WhyChooseUs';
+export { default as FeaturedDeals } from './FeaturedDeals';
+export { default as WhatWeCarry } from './WhatWeCarry';
+export { default as StoreExperience } from './StoreExperience';
+export { default as VisitUs } from './VisitUs';
+export { default as ContactForm } from './ContactForm';
+export { default as Newsletter } from './Newsletter';
+export { default as ProductSearch } from './ProductSearch';

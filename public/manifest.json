@@ -1,0 +1,21 @@
+{
+  "name": "Little York Smoke Shop",
+  "short_name": "Little York",
+  "description": "Your neighborhood smoke shop on Little York. Affordable flower, premium accessories, and smoking essentials. Open late, 7 days a week.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["shopping", "lifestyle"],
+  "lang": "en-US",
+  "dir": "ltr"
+}
